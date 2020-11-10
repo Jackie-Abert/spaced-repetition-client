@@ -1,9 +1,7 @@
-
-.LoginForm {
-  text-align: center;
-  padding: 20px 5px 0 5px;
+.loginFieldset{
+  padding-top:20px;
+    display: inline-block;
 }
-
 #login-username-input, #login-password-input {
   height: 30px;
   margin: 10px;

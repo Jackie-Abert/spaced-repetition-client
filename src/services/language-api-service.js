@@ -17,7 +17,7 @@ const languageService = {
 
     async getLanguage() {
         const authBearer = { headers: { authorization: `bearer ${TokenService.getAuthToken()}` } }
-        const res = await fetch(URL, authBearer)
+        const res = await fetch(`${URL}`, authBearer)
         return !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
     },
     async getNextWord() {

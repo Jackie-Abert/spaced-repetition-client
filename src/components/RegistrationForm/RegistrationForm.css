@@ -1,5 +1,6 @@
 .regFormInline{
     padding-top:20px;
+    display: inline-block;
 }
 
 #registration-name-input, 
@@ -7,6 +8,7 @@
 #registration-password-input{
     height:30px;
     margin:10px;
+    
 }
 #submit{
     height:30px;
@@ -19,12 +21,12 @@
     text-align: right;
 }
 fieldset, label{
-    display: inline-flex;
+    /* display: inline-flex; */
     text-align: right;
 }
-/* .registrationForm input{
-    display:grid;
-} */
+.registrationForm input{
+    /* display:grid; */
+}
 footer{
     margin: 10px;
 }
